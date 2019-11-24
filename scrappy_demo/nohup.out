@@ -1,0 +1,1764 @@
+000f:fixme:service:scmdatabase_autostart_services Auto-start service L"QPCore" failed to start: 2
+wine: Call from 0x7b42da85 to unimplemented function ntoskrnl.exe.IoRegisterLastChanceShutdownNotification, aborting
+wine: Unimplemented function ntoskrnl.exe.IoRegisterLastChanceShutdownNotification called at address 0x7b42da85 (thread 0033), starting debugger...
+000f:err:service:process_send_command service protocol error - failed to read pipe r = 0  count = 0!
+000f:fixme:service:scmdatabase_autostart_services Auto-start service L"TsQBDrv" failed to start: 1053
+003e:fixme:advapi:StartTraceW (0x75fec8, L"QQBROWSER_61823CD4-D3F7-4B36-87B8-8D736D9CD742", 0x1939d8) stub
+003e:fixme:advapi:EnableTrace (1, 0x0, 4, {e47ce830-132f-4f05-a0ad-940c6557c564}, cafe4242): stub
+0041:fixme:advapi:OpenTraceW 0x86fd88: stub
+0041:fixme:advapi:CloseTrace ffffffff: stub
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:harddisk_ioctl Unsupported ioctl 74080 (device=7 access=1 func=20 method=0)
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0029:fixme:mountmgr:query_property Faking StorageDeviceProperty data
+0043:fixme:advapi:GetNamedSecurityInfoW Object type 6 is not currently supported.
+0043:fixme:advapi:SetNamedSecurityInfoW Object type 6 is not currently supported.
+004e:fixme:process:WTSGetActiveConsoleSessionId stub
+0054:fixme:winsock:set_dont_fragment IP_DONTFRAGMENT for IPv4 not supported in this platform
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9ff00 semi-stub!
+0051:fixme:wtsapi:WTSQueryUserToken 1 0x130fe7c semi-stub!
+0057:fixme:advapi:ImpersonateLoggedOnUser (0x108)
+0050:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:err:winediag:SECUR32_initNTLMSP ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+004b:fixme:thread:GetThreadUILanguage : stub, returning default language.
+004b:fixme:nls:GetThreadPreferredUILanguages 00000038, 0x22d4fc, 0x0 0x22d558
+004b:fixme:nls:get_dummy_preferred_ui_language (0x38 0x22d4fc 0x0 0x22d558) returning a dummy value (current locale)
+004b:fixme:nls:GetThreadPreferredUILanguages 00000038, 0x22d4fc, 0x39719c0 0x22d558
+004b:fixme:nls:get_dummy_preferred_ui_language (0x38 0x22d4fc 0x39719c0 0x22d558) returning a dummy value (current locale)
+004b:fixme:wtsapi:WTSRegisterSessionNotification Stub 0x10078 0x00000000
+004b:fixme:uxtheme:BufferedPaintInit Stub ()
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:dwmapi:DwmIsCompositionEnabled 0x22f20c
+004b:err:winediag:SECUR32_initNTLMSP ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+004b:err:winediag:ODBC_LoadDriverManager failed to open library "libodbc.dylib": dlopen(libodbc.dylib, 265): image not found
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+007a:fixme:winsock:set_dont_fragment IP_DONTFRAGMENT for IPv4 not supported in this platform
+004b:fixme:win:WINNLSEnableIME hwnd 0x10184 enable -1: stub!
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007e:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+007e:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+007e:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+007e:fixme:process:SetProcessDEPPolicy (1): stub
+007e:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+007e:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+007e:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+007e:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+007e:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+007e:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+007e:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:fixme:imm:ImmReleaseContext (0x2027c, 0x8381540): stub
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETOPENSTATUS
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+008b:fixme:wtsapi:WTSQueryUserToken 1 0x11ffe6c semi-stub!
+008d:fixme:wtsapi:WTSQueryUserToken 1 0x185d2cc semi-stub!
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+008d:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0089:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+0089:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+0089:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+0089:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+0089:fixme:wininet:InternetSetOptionW Option 4 STUB
+0089:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+0089:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+0089:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+0092:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+0092:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0092:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+0092:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+0092:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+0092:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+0092:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+00a0:fixme:wtsapi:WTSQueryUserToken 1 0x141f43c semi-stub!
+00a0:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141f438 0x141f43c
+00a2:fixme:winhttp:WinHttpDetectAutoProxyConfigUrl discovery via DHCP not supported
+00b0:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00df:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00f2:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+00f4:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x1b8fb68 0x1b8fb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0112:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+011e:fixme:wtsapi:WTSQueryUserToken 1 0x141f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+012c:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141fb68 0x141fb6c
+012e:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0142:fixme:wtsapi:WTSQueryUserToken 1 0x174f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+014e:fixme:wtsapi:WTSQueryUserToken 1 0x141f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+015c:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+015e:fixme:wtsapi:WTSQueryUserToken 1 0x185f43c semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+017f:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141fb68 0x141fb6c
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+0183:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+0183:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+0183:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+0183:fixme:process:SetProcessDEPPolicy (1): stub
+0183:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+0183:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+0183:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+0183:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+0183:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+0183:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+0183:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+018a:fixme:wtsapi:WTSQueryUserToken 1 0xfdd2cc semi-stub!
+018a:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+018c:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+018c:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+018c:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+018c:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+018c:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+018c:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+018c:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x203c4 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01c5:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141fb68 0x141fb6c
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:win:WINNLSEnableIME hwnd 0x303c4 enable -1: stub!
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x203b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0033:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141fb68 0x141fb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0090:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x303b8 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x303c0 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x403b8 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x403c0 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x503b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x603b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00e7:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+00eb:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+00eb:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00eb:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+00eb:fixme:process:SetProcessDEPPolicy (1): stub
+00eb:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+00eb:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+00eb:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+00eb:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+00eb:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+00eb:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+00eb:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+004b:fixme:win:WINNLSEnableIME hwnd 0x703b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00f6:fixme:wtsapi:WTSQueryUserToken 1 0xfdd2cc semi-stub!
+00f6:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00f7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+00f7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00f7:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+00f7:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+00f7:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+00f7:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+00f7:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x803b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x903b8 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x903b8 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x903b8 enable -1: stub!
+004b:fixme:win:WINNLSEnableIME hwnd 0x903b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0xa03b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+013a:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+016c:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+019e:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01c4:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+01c8:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+01c8:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01c8:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+01c8:fixme:process:SetProcessDEPPolicy (1): stub
+01c8:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+01c8:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+01c8:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+01c8:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+01c8:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+01c8:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+01c8:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+004b:fixme:win:WINNLSEnableIME hwnd 0xb03b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01d0:fixme:wtsapi:WTSQueryUserToken 1 0x11fd2cc semi-stub!
+01d0:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01d3:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+01d3:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d3:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+01d3:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+01d3:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+01d3:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+01d3:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01fa:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+006e:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:err:wininet:open_http_connection create_netconn failed: 12029
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0xc03b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+009c:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00c5:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+00c7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+00c7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00c7:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+00c7:fixme:process:SetProcessDEPPolicy (1): stub
+00c7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+00c7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+00c7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+00c7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+00c7:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+00c7:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+00c7:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00d1:fixme:wtsapi:WTSQueryUserToken 1 0x11fd2cc semi-stub!
+00d1:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00d3:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+00d3:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+00d3:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+00d3:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+00d3:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+00d3:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+00d3:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0xd03b8 enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00fb:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+00fb:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+00fb:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+00fb:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+00fb:fixme:wininet:InternetSetOptionW Option 4 STUB
+00fb:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+00fb:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+00fb:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+00fb:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+00fb:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+00fb:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0109:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:keyboard:macdrv_ActivateKeyboardLayout flags 1 not supported
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:win:WINNLSEnableIME hwnd 0x2049a enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0144:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0180:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+004b:fixme:win:WINNLSEnableIME hwnd 0x3049a enable -1: stub!
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:err:wininet:open_http_connection create_netconn failed: 12029
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01d1:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x141fb68 0x141fb6c
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+007c:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+007c:fixme:wtsapi:WTSQueryUserToken 1 0x130f22c semi-stub!
+007c:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_SEND/RECEIVE_TIMEOUT/DATA_SEND_TIMEOUT 60000
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_DATA_RECEIVE_TIMEOUT (60000): STUB
+007c:fixme:wininet:InternetSetOptionW Option 4 STUB
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_CONNECT_RETRIES 1
+007c:fixme:wininet:InternetSetOptionW INTERNET_OPTION_HTTP_DECODING; STUB
+007c:fixme:wininet:InternetSetOptionW Option INTERNET_OPTION_SECURITY_FLAGS; STUB
+01d7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+01d7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01d7:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+01d7:fixme:process:SetProcessDEPPolicy (1): stub
+01d7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x10019dc0, 0x10050a70, 0x10050ae8) stub.
+01d7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x10019dc0, 0x10050ab0, 0x10050aa8) stub.
+01d7:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x9b3fa0, 0xdd0fa0, 0xdd1018) stub.
+01d7:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x9b3fa0, 0xdd0fe0, 0xdd0fd8) stub.
+01d7:fixme:ntdll:EtwRegisterTraceGuidsW (0x9e3570, 0xdd1770, {7fe69228-633e-4f06-80c1-527fea23e3a7}, 1, 0xdc8088, (null), (null), 0xdd1788): stub
+01d7:fixme:ntdll:EtwRegisterTraceGuidsW   register trace class {00000000-0000-0000-0000-000000000000}
+01d7:fixme:ntdll:EtwUnregisterTraceGuids deadbeef: stub
+0042:err:wininet:open_http_connection create_netconn failed: 12029
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+01df:fixme:wtsapi:WTSQueryUserToken 1 0x141d2cc semi-stub!
+01df:fixme:process:CreateProcessInternalW Creating a process with a token is not yet implemented
+01db:fixme:ntdll:EtwEventRegister ({454c68ad-5e95-4aa0-8ce2-562e8a50a14d}, 0x415a70, 0x4b6888, 0x4b6900) stub.
+01db:fixme:ntdll:EtwEventRegister ({2025e192-0706-4766-869b-6edcca2d9b31}, 0x415a70, 0x4b68c8, 0x4b68c0) stub.
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:file:K32GetMappedFileNameW (0xffffffff, 0x44b97f, 0x33fb30, 260): stub
+01db:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Tencent.QQBrowser.Default": stub
+01db:fixme:file:FindFirstFileExW flags not implemented 0x00000002
+01db:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+01db:fixme:ntdll:EtwEventUnregister (deadbeef) stub.
+01db:fixme:kernelbase:AppPolicyGetProcessTerminationMethod 0xfffffffa, 0x33feac
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0042:err:wininet:open_http_connection create_netconn failed: 12029
+0042:err:wininet:open_http_connection create_netconn failed: 12029
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0205:fixme:netapi32:NetGetJoinInformation Semi-stub (null) 0x11ffb68 0x11ffb6c
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:wtsapi:WTSQueryUserToken 1 0xb9fbc8 semi-stub!
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0044:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0044:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:win:WINNLSEnableIME hwnd 0x40290 enable -1: stub!
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+004b:err:listview:LISTVIEW_WindowProc unknown msg 109d wp=00000000 lp=00000000
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONWINDOW
+004b:fixme:imm:ImeHandleNotify WM_IME_NOTIFY:IMN_SETCOMPOSITIONFONT
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0
+0042:fixme:secur32:schan_imp_get_max_message_size Returning 1 << 14.
+0042:fixme:secur32:schan_get_cipher_algid Don't know CALG for encryption algorithm 2, returning 0

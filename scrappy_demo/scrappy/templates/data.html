@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <script>
+
+
+        function refreshbtn_click() {
+            $.ajax({
+                type: "POST", //提交方式
+                url: "/refresh/",//路径
+                data: {
+                    "url": $("[name='url']").val()
+                },
+                success: function (result) { //返回数据根据结果进行相应的处理
+                    if (result.error) {
+                        $("#msg").text(JSON.stringify(result.error));
+                    } else {
+                        $("#msg").text('');
+                        $('#result').empty();
+                        for (i in result.result) {
+                            let item = result.result[i];
+                            let childtr = $("<tr></tr>");
+                            childtr.append("<td style='width:50px;max-width:50px;'>" + item.id + "</td>");
+                            childtr.append("<td style='width:150px;max-width:300px;'><a href='" + item.url + "'>" + item.url.substring(0,60) + "</a>...</td>");
+                            childtr.append("<td style='width:50px;max-width:50px;'>" + item.url_level + "</td>");
+                            childtr.append("<td style='width:50px;max-width:50px;'>" + item.parent_id + "</td>");
+                            childtr.append("<td style='width:150px;max-width:150px;'>" + item.title + "</td>");
+                            childtr.append("<td style='width:250px;max-width:250px;'>" + item.keywords + "</td>");
+                            childtr.append("<td style='width:400px;max-width:400px;'>" + item.description + "</td>");
+                            childtr.append("<td style='width:50px;max-width:50px;'>" + item.flag + "</td>");
+                            childtr.appendTo("#result");
+                        }
+                    }
+                }
+            });
+        }
+
+        function exportbtn_click(type) {
+            $("#fooform").append("<input type='hidden' value='"+type+"'>");
+            $("#fooform").submit();
+        }
+
+    </script>
+</head>
+<body onload="refreshbtn_click()">
+<form id="fooform" action="/export/">
+    <input name='url' type="hidden" value="{{ url }}">
+</form>
+<div id="msg"></div>
+<p>
+    <button id="refresh" onclick="refreshbtn_click();">刷新</button>
+    <button id="exportall" onclick="exportbtn_click('all');">导出所有</button>
+    <button id="exportvalidlink" onclick="exportbtn_click('validlink');" disabled>导出有效链接</button>
+    <button id="exportinvalidlink" onclick="exportbtn_click('invalidlink');" disabled>导出无效链接</button>
+</p>
+<div>
+    <table id="myTable" border="1" style="font-size:14px;" class="table">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>url</th>
+            <th>url_level</th>
+            <th>parent_id</th>
+            <th>title</th>
+            <th>keywords</th>
+            <th>description</th>
+            <th>flag</th>
+        </tr>
+        </thead>
+        <tbody id="result">
+        {% for item in result %}
+            <tr>
+                <td style='width:50px;max-width:50px;'>{{ item.id }}</td>
+                <td style='width:150px;max-width:300px;'><a href="{{ item.url}}">{{ item.url|slice:"0:60"}}</a></td>
+                <td style='width:50px;max-width:50px;'>{{ item.url_level }}</td>
+                <td style='width:50px;max-width:50px;'>{{ item.parent_id }}</td>
+                <td style='width:150px;max-width:150px;'>{{ item.title }}</td>
+                <td style='width:250px;max-width:250px;'>{{ item.keywords }}</td>
+                <td style='width:400px;max-width:400px;'>{{ item.description }}</td>
+                {% ifequal item.flag '2' %}
+                    <td style='width:50px;max-width:50px;'>完</td>
+                {% endifequal %}
+                {% ifequal item.flag '0' %}
+                    <td style='width:50px;max-width:50px;'>未爬</td>
+                {% endifequal %}
+                {% ifequal item.flag '1' %}
+                    <td style='width:50px;max-width:50px;'>正在爬</td>
+                {% endifequal %}
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

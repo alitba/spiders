@@ -1,0 +1,48 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <script>
+
+        function resultlistbtn_click() {
+            let url = $("[name='url']").val();
+            if (!url.startsWith('http')) {
+                url = 'http://' + url;
+            }
+            location.href = '/todata/?url=' + url;
+            // $('#resultlist_btn').click();
+        }
+
+        function maxlevel_changed(){
+            let childp = $("<p></p>");
+            level = $('#max_level').val();
+            for(let i in parseInt(level)){
+                let child = $("<label for=''>"+i+"层延时</label><input id='duration'"+i+" type='input' style='width:100px;'>");
+                childp.append(child);
+            }
+            $('#configform').append(childp);
+        }
+
+    </script>
+</head>
+<body>
+<form id="fooform" action="/search/" method="post">
+    请输入搜索的URL: <input name="url" type="text" size="100" value="http://www.sina.com">
+    <p>
+        <input type="submit" value="爬取当前页和下一层"></input>
+    </p>
+</form>
+<p>
+    <button id="resultlist_btn" onclick="resultlistbtn_click()">结果列表</button>
+</p>
+<form id="configform" action="/setconfig/" method="post">
+    请输入需要爬取的最深层次: <input id="max_level" name="max_level" type="text" size="50" value="" placeholder="4" onchange="maxlevel_changed();">
+    <p>
+        <input type="submit">修改</input>
+    </p>
+</form>
+<div id="msg"></div>
+
+</body>
+</html>
